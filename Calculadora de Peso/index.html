@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="box">
+        <h1>Cálculo de Peso</h1>
+        <form action="" id="formulario">
+            <label for="">Nome:</label>
+            <input type="text" placeholder="Nome" id="nome">
+            <div class="genero">
+                <label for="">Masculino:</label>
+                <input type="radio" class="gender" name="genero" value="M"><label for="">Feminino:</label><input type="radio" class="gender" name="genero" value="F">
+            </div>
+            <label for="">Altura:</label>
+            <input type="text" placeholder="Altura" id="altura">
+            <button id="btnResultado">Calcular peso ideal</button>
+            <button id="clear">Limpar os dados</button>
+        </form>
+        <div id="outResultado"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
